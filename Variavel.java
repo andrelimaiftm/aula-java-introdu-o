@@ -1,10 +1,12 @@
 public class Variavel {
 
-    public static void main(String[] args){        
-        int quantidade; //Declarando varável inteiro
-        quantidade = 10; //atribuindo o valor 10
-        System.out.println(quantidade);        
-        quantidade = 15;
-        System.out.println(quantidade);
+    public static void main(String[] args) {
+       
+        float equacao;
+        equacao = (float) (2 + 3) / 2;
+
+        int resto = 6 % 2;
+        System.out.println(equacao);
+        System.out.println(resto);
     }
 }

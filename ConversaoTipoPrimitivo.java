@@ -1,29 +1,33 @@
 public class ConversaoTipoPrimitivo{
 
-    public static void main(String[] args){
-        long x = 9300000035L;
-        //casting (não automático)
-        int y = (int) x;
-        System.out.println(y);
-
-        y = 102344;
-        //casting (automático)
+    public static void main(String[] args) {
+        /*casting automatico
+        long x = 0;
+        int y = 3;
         x = y;
         System.out.println(x);
 
-        double a = 20.5;
-        //casting (não automático)
+        //casting não automatico
+        long x = 931234567687989835L;
+        int y = (int) x;
+        System.out.println(y);*/
+
+        double a  = 20.5;
         float b = (float) a;
         System.out.println(b);
 
-        float c = 934.5f;
-        //casting (automático)
-        float d = c;
-        System.out.println(d);
+        b = 3.15f;
+        a = b;
+        System.out.println(a);
 
-        double largura = 100.37;
-        int tamanho = (int) largura;
-        System.out.println(tamanho);
+        int c = (int) b;
+        System.out.println(c);
+
+        c = 35;
+        b = c;
+        System.out.println(b);
+
+
 
     }
 }
