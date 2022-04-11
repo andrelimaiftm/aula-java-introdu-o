@@ -11,9 +11,9 @@ public class NomeVariavel{
         int quantidade_alunos_nota_10;
 
         //declaração de variavel com erro.
-        int 2alunos; //Não pode começar com digitos
-        int quantidade alunos; //Não pode ter espaços
-        int new; //Não pode ter palavras reservada
+ //       int 2alunos; //Não pode começar com digitos
+//        int quantidade alunos; //Não pode ter espaços
+//        int new; //Não pode ter palavras reservada
 
     }
 }

@@ -35,5 +35,6 @@ public class EntradaDeDadosCondicional {
             System.out.println("Obesidade grau 3");
             System.out.println("Muito cuidade com o seu peso");
         }
+        entrada.close();
     }    
 }
